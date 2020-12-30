@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TPX1.MainPage">
+
+    <StackLayout Padding="4" Spacing="20">
+        <Frame BackgroundColor="Gray" Padding="24" CornerRadius="0">
+            <Label Text="Login Page " HorizontalTextAlignment="Center" TextColor="White" FontSize="26"/>
+        </Frame>
+
+        <Entry Placeholder="Your email here .." HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="Your password here .." HorizontalOptions="FillAndExpand" IsPassword="True"/>
+        <Button Text="Login" Padding="30" x:Name="btnlogin"  HorizontalOptions="Center" WidthRequest="200"/>
+    </StackLayout>
+</ContentPage>

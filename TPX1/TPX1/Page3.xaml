@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TPX1.Page3">
+    <CarouselPage.Children>
+        <ContentPage Title="Fist Slide !" BackgroundColor="Aqua">
+            <Label Text="first slide !" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+        </ContentPage>
+        <ContentPage Title="Second Slide !" BackgroundColor="Red">
+            <Label Text="second slide !" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+        </ContentPage>
+        <ContentPage Title="Third Slide !" BackgroundColor="Beige">
+            <Label Text="third slide !" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+        </ContentPage>
+    </CarouselPage.Children>
+</CarouselPage>
